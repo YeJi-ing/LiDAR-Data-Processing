@@ -5,7 +5,7 @@
 
 clc; clear; % 작업 공간 및 명령 창 모두 초기화
 
-lidar_data = readmatrix("R300_Data.csv"); % N(row) x 1200(column) double
+lidar_data = readmatrix("filename"); % N(row) x 1200(column) double
 lidar_data_1 = lidar_data(1,:); % 1(row) x 1200(column) double
 
 angle_start = 0; % 0 ~ 299.75
